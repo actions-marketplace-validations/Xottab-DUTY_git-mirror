@@ -25,7 +25,7 @@ To push from your repository to `https://github.com/user/repo.git`, use this set
 
 ```yml
 - uses: actions/checkout@v6
-    with:
+  with:
     fetch-depth: 0 # this is required for correct mirroring
 
 - uses: Xottab-DUTY/git-mirror@v1.0.0
@@ -38,7 +38,7 @@ To push from your repository to `https://github.com/user/repo.git`, use this set
 
 ```yml
 - uses: actions/checkout@v6
-    with:
+  with:
     fetch-depth: 0 # this is required for correct mirroring
 
 - uses: Xottab-DUTY/git-mirror@v1.0.0
@@ -55,7 +55,7 @@ By default, this action uses `git push --mirror` command, but `--mirror` argumen
 
 ```yml
 - uses: actions/checkout@v6
-    with:
+  with:
     fetch-depth: 0 # this is required for correct mirroring
 
 - uses: Xottab-DUTY/git-mirror@v1.0.0
